@@ -32,8 +32,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: signal filtering technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 9270516106897
-  numberOfFiles: 43
+  numberOfBytes: 9604196795483
+  numberOfFiles: 44
   numberOfSubjects: 7
   schemaKey: AssetsSummary
   species:
