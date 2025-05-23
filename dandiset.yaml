@@ -32,8 +32,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: signal filtering technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 13430785743266
-  numberOfFiles: 61
+  numberOfBytes: 13778938497074
+  numberOfFiles: 62
   numberOfSubjects: 7
   schemaKey: AssetsSummary
   species:
@@ -52,9 +52,9 @@ assetsSummary:
   - Position
   - ElectrodeGroup
 citation: Prince, Stephanie; Cushing, Danielle Sarah; Yassine, Teema; Katragadda,
-  Navya; Roberts, Tyler; Singer, Annabelle (2025) Prince et al (2025) New information
-  triggers prospective codes to adapt for flexible navigation (Version draft) [Data
-  set]. DANDI Archive. https://dandiarchive.org/dandiset/001371/draft
+  Navya; Roberts, Tyler; Singer, Annabelle (2025) New information triggers prospective
+  codes to adapt for flexible navigation (Version draft) [Data set]. DANDI Archive.
+  https://dandiarchive.org/dandiset/001371/draft
 contributor:
 - affiliation: []
   email: stephprince16@gmail.com
@@ -163,9 +163,7 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001371/versions/draft/assets/
-name: Prince et al (2025) New information triggers prospective codes to adapt for
-  flexible navigation
-protocol: []
+name: New information triggers prospective codes to adapt for flexible navigation
 relatedResource:
 - identifier: ''
   name: 'singer-lab-to-nwb: code that converted this data'
@@ -194,7 +192,6 @@ relatedResource:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.9
-studyTarget: []
 url: https://dandiarchive.org/dandiset/001371/draft
 version: draft
 wasGeneratedBy: []
