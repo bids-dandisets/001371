@@ -32,8 +32,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: signal filtering technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 14402225238536
-  numberOfFiles: 65
+  numberOfBytes: 14536769171479
+  numberOfFiles: 66
   numberOfSubjects: 7
   schemaKey: AssetsSummary
   species:
@@ -180,7 +180,7 @@ relatedResource:
   url: https://github.com/stephprince/update-project
 - name: New information triggers prospective codes to adapt for flexible navigation
   relation: dcite:IsDescribedBy
-  resourceType: dcite:Preprint
+  resourceType: dcite:JournalArticle
   schemaKey: Resource
   url: https://doi.org/10.1038/s41467-025-60122-8
 - name: Goal-specific hippocampal inhibition gates learning
