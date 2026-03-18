@@ -1,0 +1,159 @@
+{
+    "onset": {
+        "Description": "Onset of the event, measured from the beginning of the acquisition.",
+        "Units": "s"
+    },
+    "duration": {
+        "Description": "duration in seconds"
+    },
+    "maze_id": {
+        "Description": "{'linear': 1, 'ymaze_short': 2, 'ymaze_long': 3, 'ymaze_delay': 4}"
+    },
+    "turn_type": {
+        "Description": "{'right': 1, 'left': 2}"
+    },
+    "update_type": {
+        "Description": "{'nan': 1, 'switch': 2, 'stay': 3}"
+    },
+    "choice": {
+        "Description": "choice animal made"
+    },
+    "correct": {
+        "Description": "whether trial was correct or not"
+    },
+    "iterations": {
+        "Description": "number of samples/vr frames"
+    },
+    "i_delay": {
+        "Description": "index when delay started"
+    },
+    "i_update": {
+        "Description": "index when update started"
+    },
+    "i_delay2": {
+        "Description": "index when second delay started"
+    },
+    "i_choice_made": {
+        "Description": "index when choice made"
+    },
+    "t_delay": {
+        "Description": "time when delay started"
+    },
+    "t_update": {
+        "Description": "time when update started"
+    },
+    "t_delay2": {
+        "Description": "time when second delay started"
+    },
+    "t_choice_made": {
+        "Description": "time when choice made"
+    },
+    "delay_location": {
+        "Description": "y-position on track where delay occurred"
+    },
+    "update_location": {
+        "Description": "y-position on track where update occurred"
+    },
+    "delay2_location": {
+        "Description": "y-position on track where delay 2 occurred"
+    },
+    "behavior_task": {
+        "Description": "indicates whether VR task was displayed on the screen (1), or if the screen was left covered/blank as a baseline period (0)"
+    },
+    "recording_number": {
+        "Description": "what the original recording file number this epoch was (as saved in theraw spikegadgets and .mat file names), 1-based indexing"
+    },
+    "mid_time": {
+        "Description": "middle of lfp event"
+    },
+    "start_ind": {
+        "Description": "index of start time in lfp timeseries"
+    },
+    "stop_ind": {
+        "Description": "index of stop time in lfp timeseries"
+    },
+    "mid_ind": {
+        "Description": "index of middle time in lfp timeseries"
+    },
+    "energy": {
+        "Description": "total sum squared energy of the waveform"
+    },
+    "peak": {
+        "Description": "peak height/energy of the waveform"
+    },
+    "max_thresh": {
+        "Description": "the largest threshold in stdev units at which this ripple would be detected"
+    },
+    "baseline": {
+        "Description": "baseline value for event detection"
+    },
+    "threshold": {
+        "Description": "baseline value with X number of std above the mean for event detection"
+    },
+    "std": {
+        "Description": "standard deviation value used to generate threshold value"
+    },
+    "min_duration": {
+        "Description": "time (in seconds) signal must be above threshold for event detection"
+    },
+    "excluded": {
+        "Description": "any post-event detection exclusion criteria applied"
+    },
+    "nwb_table": {
+        "Description": "The name of the NWB table from which this event was extracted.",
+        "Levels": {
+            "update": "The 'update' table in the NWB file.",
+            "trials": "The 'trials' table in the NWB file.",
+            "trial": "The 'trial' table in the NWB file.",
+            "sync": "The 'sync' table in the NWB file.",
+            "recording_epochs": "The 'recording_epochs' table in the NWB file.",
+            "delay": "The 'delay' table in the NWB file.",
+            "behavior_epochs": "The 'behavior_epochs' table in the NWB file.",
+            "thetas": "The 'thetas' table in the NWB file.",
+            "ripples": "The 'ripples' table in the NWB file.",
+            "nonthetas": "The 'nonthetas' table in the NWB file."
+        },
+        "HED": {
+            "update": "Time-interval",
+            "trials": "Experimental-trial",
+            "trial": "Time-interval",
+            "sync": "Time-interval",
+            "recording_epochs": "Time-interval",
+            "delay": "Time-interval",
+            "behavior_epochs": "Time-interval",
+            "thetas": "Time-interval",
+            "ripples": "Time-interval",
+            "nonthetas": "Time-interval"
+        }
+    },
+    "update": {
+        "Description": "indicates when the update cue is on or not, from spikegadgets digital signals"
+    },
+    "trials": {
+        "Description": "experimental trials"
+    },
+    "trial": {
+        "Description": "indicates when trial is occurring vs inter trial, from spikegadgets digital signals"
+    },
+    "sync": {
+        "Description": "synchronizing pulse sent from virmen software, from spikegadgets digital signals"
+    },
+    "recording_epochs": {
+        "Description": "During one recording session, the acquisition is stopped and restarted for switching behavioral periods, refilling with saline, etc. Electrophysiological files are stitched together and these epochs indicate the start and stop times within a recording session. These epochs are NOT continuous and there is a short interval of approx 1-5 min between them."
+    },
+    "delay": {
+        "Description": "indicates whether the delay cue is on or not, from spikegadgets digital signals"
+    },
+    "behavior_epochs": {
+        "Description": "Indicates the start and stop times in which behavior data was both collected AND synchronized to ephys data."
+    },
+    "thetas": {
+        "Description": "events identified from filtered lfp signals"
+    },
+    "ripples": {
+        "Description": "events identified from filtered lfp signals"
+    },
+    "nonthetas": {
+        "Description": "events identified from filtered lfp signals"
+    }
+}

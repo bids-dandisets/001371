@@ -1,0 +1,10 @@
+{
+    "InstitutionName": "Georgia Institute of Technology",
+    "PowerLineFrequency": "n/a",
+    "SamplingFrequency": 30000.0,
+    "RecordingDuration": 5996.048433333333,
+    "SoftwareFilters": "n/a",
+    "HardwareFilters": "n/a",
+    "BodyPart": "BRAIN",
+    "BodyPartDetails": "CA1"
+}

@@ -1,0 +1,2 @@
+probe_name	type	description
+spikegadgets_mcu	n/a	Two NeuroNexus silicon probes with 2 (shanks) x 32 (channels) on each probe were inserted into hippocampal CA1 and medial prefrontal cortex. Probes were 64-chan, poly5 Takahashi probe formats. Electrophysiological data were acquired using a SpikeGadgets MCU system digitized with 30 kHz rate. Analog and digital channels were acquired using the SpikeGadgets ECU system.
