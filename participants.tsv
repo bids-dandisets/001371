@@ -1,8 +1,8 @@
-participant_id	species	sex
-sub-S17	Mus musculus	M
-sub-S20	Mus musculus	M
-sub-S25	Mus musculus	M
-sub-S28	Mus musculus	M
-sub-S29	Mus musculus	M
-sub-S33	Mus musculus	M
-sub-S34	Mus musculus	M
+participant_id	original_participant_id	species	sex
+sub-S17	sub-S17	Mus musculus	M
+sub-S20	sub-S20	Mus musculus	M
+sub-S25	sub-S25	Mus musculus	M
+sub-S28	sub-S28	Mus musculus	M
+sub-S29	sub-S29	Mus musculus	M
+sub-S33	sub-S33	Mus musculus	M
+sub-S34	sub-S34	Mus musculus	M
