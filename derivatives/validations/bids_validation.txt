@@ -1,0 +1,124 @@
+	[WARNING] JSON_KEY_RECOMMENDED A JSON file is missing a key listed as recommended.
+		SourceDatasets
+		/dataset_description.json - Field description: Used to specify the locations and relevant attributes of all source datasets (BIDS or not).
+Valid keys in each object include `"URL"`, `"DOI"` (see
+[URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)), and
+`"Version"` with
+[string](https://www.w3schools.com/js/js_json_datatypes.asp)
+values.
+
+
+	Please visit https://neurostars.org/search?q=JSON_KEY_RECOMMENDED for existing conversations about this issue.
+
+	[WARNING] SIDECAR_KEY_RECOMMENDED A data file's JSON sidecar is missing a key listed as recommended.
+		StimulusPresentation
+		/sub-S33/ses-S33+220428/ecephys/sub-S33_ses-S33+220428_events.tsv - Field description: Object containing key-value pairs related to the software used to present
+the stimuli during the experiment.
+
+		/sub-S33/ses-S33+220420/ecephys/sub-S33_ses-S33+220420_events.tsv - Field description: Object containing key-value pairs related to the software used to present
+the stimuli during the experiment.
+
+
+		64 more files with the same issue
+
+		Manufacturer
+		/sub-S33/ses-S33+220428/ecephys/sub-S33_ses-S33+220428_ecephys.nwb - Field description: Manufacturer of the equipment that produced the measurements.
+
+		/sub-S33/ses-S33+220420/ecephys/sub-S33_ses-S33+220420_ecephys.nwb - Field description: Manufacturer of the equipment that produced the measurements.
+
+
+		64 more files with the same issue
+
+		RecordingType
+		/sub-S33/ses-S33+220428/ecephys/sub-S33_ses-S33+220428_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
+`"epoched"`, where `"epoched"` is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+
+		/sub-S33/ses-S33+220420/ecephys/sub-S33_ses-S33+220420_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
+`"epoched"`, where `"epoched"` is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+
+
+		64 more files with the same issue
+
+	Please visit https://neurostars.org/search?q=SIDECAR_KEY_RECOMMENDED for existing conversations about this issue.
+
+	[WARNING] TSV_COLUMN_TYPE_REDEFINED A column required in a TSV file has been redefined in a sidecar file. This redefinition is being ignored.
+		duration
+		/sub-S33/ses-S33+220428/ecephys/sub-S33_ses-S33+220428_events.json - Format "string" must be number
+		/sub-S33/ses-S33+220420/ecephys/sub-S33_ses-S33+220420_events.json - Format "string" must be number
+
+		64 more files with the same issue
+
+		x
+		/sub-S33/ses-S33+220428/ecephys/sub-S33_ses-S33+220428_electrodes.json - Format "string" must be number
+		/sub-S33/ses-S33+220420/ecephys/sub-S33_ses-S33+220420_electrodes.json - Format "string" must be number
+
+		64 more files with the same issue
+
+		y
+		/sub-S33/ses-S33+220428/ecephys/sub-S33_ses-S33+220428_electrodes.json - Format "string" must be number
+		/sub-S33/ses-S33+220420/ecephys/sub-S33_ses-S33+220420_electrodes.json - Format "string" must be number
+
+		64 more files with the same issue
+
+		impedance
+		/sub-S33/ses-S33+220428/ecephys/sub-S33_ses-S33+220428_electrodes.json - Format "string" must be number
+		/sub-S33/ses-S33+220420/ecephys/sub-S33_ses-S33+220420_electrodes.json - Format "string" must be number
+
+		64 more files with the same issue
+
+		sampling_frequency
+		/sub-S33/ses-S33+220428/ecephys/sub-S33_ses-S33+220428_channels.json - Format "string" must be number
+		/sub-S33/ses-S33+220420/ecephys/sub-S33_ses-S33+220420_channels.json - Format "string" must be number
+
+		64 more files with the same issue
+
+	Please visit https://neurostars.org/search?q=TSV_COLUMN_TYPE_REDEFINED for existing conversations about this issue.
+
+	[WARNING] EVENT_ONSET_ORDER The onset column in events.tsv files should be sorted.
+
+		/sub-S33/ses-S33+220420/ecephys/sub-S33_ses-S33+220420_events.tsv
+		/sub-S33/ses-S33+220421/ecephys/sub-S33_ses-S33+220421_events.tsv
+
+		41 more files with the same issue
+
+	Please visit https://neurostars.org/search?q=EVENT_ONSET_ORDER for existing conversations about this issue.
+
+	[WARNING] SUSPICIOUS_NEGATIVE_EVENT_ONSET Event onsets were found more than 60s before the start of recording, indicated by negative values.
+If this is not a mistake, remove or consider an alternative method of representing these events.
+
+		/sub-S25/ses-S25+210910/ecephys/sub-S25_ses-S25+210910_events.tsv
+		/sub-S20/ses-S20+210511/ecephys/sub-S20_ses-S20+210511_events.tsv
+
+	Please visit https://neurostars.org/search?q=SUSPICIOUS_NEGATIVE_EVENT_ONSET for existing conversations about this issue.
+
+	[WARNING] SUSPICIOUS_POSITIVE_EVENT_ONSET Event onsets were found more than a month after the start of recording.
+If this is not a mistake, remove or consider an alternative method of representing these events.
+
+		/sub-S25/ses-S25+210910/ecephys/sub-S25_ses-S25+210910_events.tsv
+		/sub-S20/ses-S20+210511/ecephys/sub-S20_ses-S20+210511_events.tsv
+
+	Please visit https://neurostars.org/search?q=SUSPICIOUS_POSITIVE_EVENT_ONSET for existing conversations about this issue.
+
+	[ERROR] TSV_VALUE_INCORRECT_TYPE A value in a column did not match the acceptable type for that column headers specified format.
+		onset
+		/sub-S33/ses-S33+220420/ecephys/sub-S33_ses-S33+220420_events.tsv - ''
+		/sub-S33/ses-S33+220421/ecephys/sub-S33_ses-S33+220421_events.tsv - ''
+
+		41 more files with the same issue
+
+		duration
+		/sub-S33/ses-S33+220420/ecephys/sub-S33_ses-S33+220420_events.tsv - ''
+		/sub-S33/ses-S33+220421/ecephys/sub-S33_ses-S33+220421_events.tsv - ''
+
+		41 more files with the same issue
+
+	Please visit https://neurostars.org/search?q=TSV_VALUE_INCORRECT_TYPE for existing conversations about this issue.
+
+
+          Summary:                          Available Tasks:        Available Modalities:
+          677 Files, 377 MB                                         microephys           
+          7 - Subjects 66 - Sessions                                                     
+
+	If you have any questions, please post on https://neurostars.org/tags/bids.
